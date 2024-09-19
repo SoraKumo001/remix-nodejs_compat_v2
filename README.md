@@ -4,7 +4,7 @@ Sample using nodejs_compat_v2 to make Cloudflare work with pg.
 
 # Notes
 
-pg@8.12.0 does not support nodejs_compat_v2.  
+`pg@8.12.0` and `pg@8.13.0` does not support nodejs_compat_v2.  
 Setting the flag will completely disable the operation.
 
 # How to run
